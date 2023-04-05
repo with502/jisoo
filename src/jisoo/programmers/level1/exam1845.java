@@ -1,4 +1,4 @@
-package jisoo.programmers.level;
+package jisoo.programmers.level1;
 
 import java.util.*;
 
