@@ -8,16 +8,8 @@ public class exam42576 {
 		String[] completion = {"eden", "kiki"};
 		String result = "leo";
 		
-		Map<String, Integer> map = new HashMap<>();
-		for(String a : participant) {
-			map.computeIfAbsent(a, (v -> 0));
-		}
 		
-		for(String a : completion) {
-			map.computeIfPresent(a, ((k, v) -> v + 1));			
-		}
-		
-		System.out.println(map.keySet());
+		for(int a = 0; )
 		
 	}
 	
